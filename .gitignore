@@ -1,0 +1,15 @@
+.DS_Store
+.vagrant
+deploy2*.ps1
+ansible-epr-inf/
+rolesfromgalaxy/
+rolesfromgitlab/
+files-trans/
+shared_files/
+ovf/
+backup/
+box/
+test-esxi/
+rspec_html_reports/
+version
+

@@ -17,7 +17,17 @@ The base image is provisioned with bash script [ubuntu-18.04-fabric-vagrant.sh](
 | Mate            | vagrant rdp            | jenkins / jenkins  |
 | jenkins         | http://localhost:38080 | -                  |
 
-###  Create Vagrant Box Environment
+### Configuration
+#### Install Jenkins Plugin
+- Standard Plugins
+- Blue Ocean Plugin
+- Slack Notification Plugin
+
+#### Configure Jenkins Shared Library
+- [Jenkins Shared Library Tutorial For Beginners](https://devopscube.com/jenkins-shared-library-tutorial/)
+- [Jenkins Pipeline: Send Slack Notifications using Shared Library](https://medium.com/@lvthillo/send-slack-notifications-in-jenkins-pipelines-using-a-shared-library-873ca876f72c)
+
+### Create Vagrant Box Environment
 #### Provider "virtualbox"
 1. Create directory `mkdir "name of directory"`
 1. Goto directory `cd "name of directory"`

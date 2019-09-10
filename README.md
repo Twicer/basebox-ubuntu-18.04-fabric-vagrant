@@ -15,7 +15,7 @@ The base image is provisioned with bash script [ubuntu-18.04-fabric-vagrant.sh](
 | Application     | Command                | Credentials        |
 |-----------------|------------------------|--------------------|
 | Mate            | vagrant rdp            | jenkins / jenkins  |
-| jenkins         | http://localhost:38080 | -                  |
+| Jenkins         | http://localhost:38080 | -                  |
 
 ### Configuration
 #### Install Jenkins Plugin

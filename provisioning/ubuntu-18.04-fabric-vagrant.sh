@@ -77,7 +77,7 @@ vagrant plugin install vagrant-secret
 vagrant plugin install vagrant-share
 vagrant plugin install vagrant-vbguest
 vagrant plugin install vagrant-vmware-esxi
-vagrant plugin install vagrant-serverspec
+# vagrant plugin install vagrant-serverspec
 sudo cp -r /root/.vagrant.d /home/vagrant/.vagrant.d
 sudo chown -R vagrant /home/vagrant/.vagrant.d
 sudo chgrp -R vagrant /home/vagrant/.vagrant.d

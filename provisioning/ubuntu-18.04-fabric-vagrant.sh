@@ -10,6 +10,13 @@ echo "##########################################"
 sudo apt-get install -y jq
 
 echo "##########################################"
+echo "# install jfrog client                   #"
+echo "##########################################"
+sudo curl -s -fL https://getcli.jfrog.io | sh
+sudo chmod +x jfrog
+sudo mv jfrog /bin/jfrog
+
+echo "##########################################"
 echo "# configure desktop                      #"
 echo "##########################################"
 sudo dbus-launch gsettings set org.mate.caja.desktop computer-icon-visible "true"

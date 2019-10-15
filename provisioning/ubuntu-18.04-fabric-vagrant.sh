@@ -65,7 +65,7 @@ echo "# install vagrant environment            #"
 echo "#         - vagrant                      #"
 echo "#         - virtualbox                   #"
 echo "##########################################"
-VAGRANT_VERSION="2.2.5"
+VAGRANT_VERSION="2.2.6"
 # get keys
 sudo wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -

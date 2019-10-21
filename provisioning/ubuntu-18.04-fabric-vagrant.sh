@@ -107,4 +107,4 @@ DATE=`date +%Y%m%d%H%M`
 
 # set version
 FABRIC_VERSION=$(vboxmanage --version)
-echo "$FABRIC_VERSION.$DATE" > /vagrant/version
+echo "virtualbox-$FABRIC_VERSION;vagrant-$VAGRANT_VERSION" > /vagrant/version

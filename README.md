@@ -17,7 +17,7 @@ The base image is provisioned with bash script [ubuntu-18.04-fabric-vagrant.sh](
 | Jenkins         | http://localhost:38080 | -                  |
 
 ### Configuration
-#### Install Jenkins Plugin
+#### Installed Jenkins Plugins
 - Standard Plugins
 - Blue Ocean Plugin
 - Slack Notification Plugin

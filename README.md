@@ -9,7 +9,6 @@ The base image is provisioned with bash script [ubuntu-18.04-fabric-vagrant.sh](
 
 ### References
 - [Jenkins Groovy Scripting](https://riptutorial.com/jenkins/example/24924/jenkins-groovy-scripting)
-- [Used Vagrantfile for Basebox](https://github.com/elegoev/vagrant-ubuntu-18.04/blob/master/jenkins/vagrant/esxi/_Vagrantfile)
 
 ### Host Access
 | Application     | Command                | Credentials        |

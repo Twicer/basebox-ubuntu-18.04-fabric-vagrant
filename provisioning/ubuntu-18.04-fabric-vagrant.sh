@@ -65,14 +65,14 @@ echo "# install vagrant environment            #"
 echo "#         - vagrant                      #"
 echo "#         - virtualbox                   #"
 echo "##########################################"
-VAGRANT_VERSION="2.2.6"
+VAGRANT_VERSION="2.2.7"
 # get keys
 sudo wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib"
 # install virtualbox
 sudo apt update
-sudo apt install -y virtualbox-6.0
+sudo apt install -y virtualbox-6.1
 # install vagrant
 sudo wget -c https://releases.hashicorp.com/vagrant/${VAGRANT_VERSION}/vagrant_${VAGRANT_VERSION}_x86_64.deb
 sudo dpkg -i vagrant_${VAGRANT_VERSION}_x86_64.deb

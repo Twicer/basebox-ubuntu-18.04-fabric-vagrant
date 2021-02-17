@@ -55,6 +55,8 @@ The base image is provisioned with bash script [ubuntu-18.04-fabric-vagrant.sh](
 
 ### References
 
+- [How To Enable Nested Virtualization In VirtualBox](https://ostechnix.com/how-to-enable-nested-virtualization-in-virtualbox/)
+
 ### Versioning
 Repository follows sematic versioning  [![](https://img.shields.io/badge/semver-2.0.0-green.svg)](http://semver.org)
 
